@@ -1,8 +1,26 @@
 aid: kabam
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kabam.png
 name: Kabam
-description: Kabam is a company surfaced as a portfolio company of canaan-partners, gv, redpoint-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Kabam is a mobile game developer and publisher founded in 2006 and headquartered
+  in Vancouver, Canada, operating as a wholly owned subsidiary of Netmarble. The studio
+  builds free-to-play multiplayer titles for iOS and Android, best known for Marvel
+  Contest of Champions, alongside Shop Titans, Transformers Forged to Fight, King Arthur
+  Legends, and past titles such as Disney Mirrorverse and Fast & Furious games. Kabam
+  operates studios and offices across Vancouver, Montreal, Charlottetown, Los Angeles,
+  San Francisco, Austin, and Seoul. Kabam publishes no public developer program, API
+  reference, or SDK surface; this profile captures its public web, legal, and support
+  properties plus a live domain-security probe.
 url: https://raw.githubusercontent.com/api-evangelist/kabam/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +32,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Gaming
+- Mobile Games
+- Video Games
+- Entertainment
+- Mobile
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +48,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://kabam.com
+  url: https://kabam.com
+- type: Support
+  url: https://kabam.com/support/
+- type: Blog
+  url: https://kabam.com/news/
+- type: TermsOfService
+  url: https://kabam.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://kabam.com/privacy-notice/
+- type: DomainSecurity
+  url: security/kabam-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
