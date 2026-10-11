@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "kabam",
+    "captured_at": "2026-10-11T190812",
+    "source_url": "https://kabam.com",
+    "source_type": "Website",
+    "file": "kabam-2026-10-11T190812.png",
+    "bytes": 121576,
+    "capture": "playwright-local"
+  }
+]
